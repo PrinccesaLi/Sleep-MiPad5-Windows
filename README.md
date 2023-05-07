@@ -1,6 +1,6 @@
 # Sleep-MiPad5
-A small program that simulates the function of sleep.
+A small program that simulates the function of sleep
 
-to run just run .exe
+To run just run .exe
 
-press side volume button to exit
+Press side volume button to exit
