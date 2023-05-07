@@ -19,8 +19,6 @@ ctypes.windll.user32.SetDisplayAutoRotationPreferences(1, 0)
 # Создание главного окна
 root = tk.Tk()
 root.withdraw()
-
-# Создание и настройка прозрачного окна
 window = tk.Toplevel(root)
 window.attributes("-alpha", 1.0)
 window.geometry(f"{root.winfo_screenwidth()}x{root.winfo_screenheight()}+500+500")
@@ -39,5 +37,4 @@ def check_volume(event):
     
 window.bind("<KeyPress>", check_volume)
 
-# Запуск главного цикла окна
 window.mainloop()
